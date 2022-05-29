@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Business-card/static/css/main.42975937.css",
+    "main.js": "/Business-card/static/js/main.0a4bde2c.js",
+    "static/js/787.bc412fff.chunk.js": "/Business-card/static/js/787.bc412fff.chunk.js",
+    "static/media/PortfolioWork3.png": "/Business-card/static/media/PortfolioWork3.09fcb1d4ea3dbd61b505.png",
+    "static/media/NavBarPic.jpg": "/Business-card/static/media/NavBarPic.cdb80871aca5338ab46c.jpg",
+    "static/media/PortfolioWork1.png": "/Business-card/static/media/PortfolioWork1.1cd6532a030e143b4225.png",
+    "static/media/PortfolioWork4.png": "/Business-card/static/media/PortfolioWork4.0a6b13f58788763f07ab.png",
+    "static/media/PortfolioWork2.png": "/Business-card/static/media/PortfolioWork2.b4141540c3a40083d542.png",
+    "index.html": "/Business-card/index.html",
+    "main.42975937.css.map": "/Business-card/static/css/main.42975937.css.map",
+    "main.0a4bde2c.js.map": "/Business-card/static/js/main.0a4bde2c.js.map",
+    "787.bc412fff.chunk.js.map": "/Business-card/static/js/787.bc412fff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42975937.css",
+    "static/js/main.0a4bde2c.js"
+  ]
+}
