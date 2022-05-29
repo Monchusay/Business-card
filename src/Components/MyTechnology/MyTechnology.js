@@ -23,6 +23,7 @@ const MyTechnology = () => {
                 <span className={style.ContentBox}>NPM</span>
                 <span className={style.ContentBox}><FormattedMessage id='tech_layout' /></span>
                 <span className={style.ContentBox}>React-Hooks</span>
+                <span className={style.ContentBox}>Figma</span>
             </div>
         </div>
     );
