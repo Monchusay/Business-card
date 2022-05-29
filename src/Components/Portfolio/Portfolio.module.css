@@ -32,13 +32,13 @@
 .PortfolioWorkContent {
     width: 70%;
     height: 100%;
-    background-color: cornflowerblue;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: default;
+    border-right: 1px solid black;
 }
 .Description {
     width: 95%;
