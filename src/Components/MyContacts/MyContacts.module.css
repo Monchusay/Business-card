@@ -1,0 +1,47 @@
+.MyContacts {
+    width: 80%;
+    height: 300px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Header {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.MyContactsBox {
+    width: 90%;
+    height: 70%;
+    background-color: olive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.MyContactsIcon {
+    width: 30px;
+    height: 30px;
+}
+.Contact {
+    width: 47%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.ContactCenter {
+    width: 47%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Link {
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

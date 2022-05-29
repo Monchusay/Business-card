@@ -1,0 +1,43 @@
+.MainInfo {
+    width: 80%;
+    height: 800px;
+    background-color: darkgrey;
+    display: flex;
+    cursor: default;
+    margin-top: 40px;
+}
+.MainInfoContent {
+    width: 50%;
+    height: 100%;
+    background-color: lawngreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Header {
+    width: 80%;
+    height: 30%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Content {
+    width: 80%;
+    height: 60%;
+    background-color: olive;
+}
+.MainInfoPicBox {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainInfoPicture {
+    width: 500px;
+    height: 700px;
+    background-image: url("/src/Pictures/NavBarPic.jpg");
+    background-size: cover;
+}
