@@ -1,8 +1,16 @@
 import React from "react";
 import style from "./NavBar.module.css";
 import { Link, animateScroll } from "react-scroll";
+import { FormattedMessage } from 'react-intl'
+import {LOCALES} from "../../i18n/locales";
 
-const NavBar = () => {
+const NavBar = ({ currentLocale, handleChange }) => {
+
+  const languages = [
+    { name: 'English', code: LOCALES.ENGLISH },
+    { name: 'Русский', code: LOCALES.RUSSIAN },
+  ]
+
   let scrollToTop = () => {
     animateScroll.scrollToTop();
   };
@@ -11,7 +19,16 @@ const NavBar = () => {
     <div className={style.NavBar}>
       <div onClick={scrollToTop} className={style.MyName}>
         <div className={style.NavBarPhoto} />
-        <span>Моисеев Тимур</span>
+        <span><FormattedMessage id='navbar_name' /></span>
+      </div>
+      <div className={style.Switcher}>
+        Lang: <select onChange={handleChange} value={currentLocale}>
+        {languages.map(({ name, code }) => (
+            <option key={code} value={code}>
+              {name}
+            </option>
+        ))}
+      </select>
       </div>
       <div className={style.NavBarLinks}>
         <Link
@@ -23,7 +40,7 @@ const NavBar = () => {
           duration={400}
           className={style.NavBarLinksElement}
         >
-          Обо мне
+          <FormattedMessage id='navbar_about' />
         </Link>
         <Link
           activeClass="active"
@@ -34,7 +51,7 @@ const NavBar = () => {
           duration={400}
           className={style.NavBarLinksElement}
         >
-          Мой стэк
+          <FormattedMessage id='navbar_tech' />
         </Link>
         <Link
           activeClass="active"
@@ -45,7 +62,7 @@ const NavBar = () => {
           duration={400}
           className={style.NavBarLinksElement}
         >
-          Портфолио
+          <FormattedMessage id='navbar_port' />
         </Link>
         <Link
           activeClass="active"
@@ -56,7 +73,7 @@ const NavBar = () => {
           duration={400}
           className={style.NavBarLinksElement}
         >
-          Контакты
+          <FormattedMessage id='navbar_cont' />
         </Link>
       </div>
     </div>
