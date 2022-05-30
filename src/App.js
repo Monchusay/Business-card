@@ -28,9 +28,9 @@ const App = () => {
         <FirstPage currentLocale={currentLocale} handleChange={handleChange} />
         <MyWorksHeader/>
         <MyWorksSlider/>
-        {/*<AboutMe />
-        <MyTechnology />*/}
-        {/*<MyContacts />*/}
+        <AboutMe />
+        <MyTechnology />
+        <MyContacts />
       </div>
     </IntlProvider>
   );
