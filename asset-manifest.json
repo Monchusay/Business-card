@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Business-card/static/css/main.8c2dd652.css",
-    "main.js": "/Business-card/static/js/main.78532d44.js",
+    "main.js": "/Business-card/static/js/main.cc00e117.js",
     "static/js/787.bc412fff.chunk.js": "/Business-card/static/js/787.bc412fff.chunk.js",
     "static/media/Fon_s_belym_nizom.png": "/Business-card/static/media/Fon_s_belym_nizom.ca7abe0baab136494491.png",
     "static/media/PortfolioWork3.png": "/Business-card/static/media/PortfolioWork3.09fcb1d4ea3dbd61b505.png",
@@ -16,11 +16,11 @@
     "static/media/Kist.png": "/Business-card/static/media/Kist.002eaf80916672a3a0b0.png",
     "index.html": "/Business-card/index.html",
     "main.8c2dd652.css.map": "/Business-card/static/css/main.8c2dd652.css.map",
-    "main.78532d44.js.map": "/Business-card/static/js/main.78532d44.js.map",
+    "main.cc00e117.js.map": "/Business-card/static/js/main.cc00e117.js.map",
     "787.bc412fff.chunk.js.map": "/Business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c2dd652.css",
-    "static/js/main.78532d44.js"
+    "static/js/main.cc00e117.js"
   ]
 }
