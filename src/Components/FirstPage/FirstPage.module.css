@@ -92,3 +92,18 @@
     width: 100px;
     height: 30px;
 }
+@media screen and (max-width: 460px) {
+    .FirstPageImage {
+        width: 150px;
+        height: 150px;
+    }
+    .FirstPageName {
+        font-size: 40px;
+    }
+    .FirstPageProf {
+        font-size: 20px;
+    }
+    .FirstPageSite {
+        font-size: 13px;
+    }
+}

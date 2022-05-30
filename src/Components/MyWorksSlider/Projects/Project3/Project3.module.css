@@ -85,3 +85,49 @@
     box-shadow: 0px 0px 35px 11px rgba(34, 60, 80, 0.22);
     transition: 0.5s;
 }
+@media screen and (max-width: 1100px) {
+    .ProjectInfoHeader {
+        font-size: 30px;
+    }
+    .ProjectInfoTech {
+        font-size: 18px;
+    }
+    .ProjectInfoFunc {
+        font-size: 16px;
+    }
+    .LinkToProj {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .ProjectInfoHeader {
+        font-size: 22px;
+        width: 90%;
+    }
+    .ProjectInfoTech {
+        font-size: 14px;
+    }
+    .ProjectInfoFunc {
+        font-size: 13px;
+    }
+    .LinkToProj {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .ProjectInfoHeader {
+        font-size: 18px;
+        width: 100%;
+    }
+    .ProjectInfoTech {
+        width: 100%;
+        font-size: 13px;
+    }
+    .ProjectInfoFunc {
+        width: 100%;
+        font-size: 10px;
+    }
+    .LinkToProj {
+        font-size: 8px;
+    }
+}

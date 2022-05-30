@@ -19,18 +19,18 @@ const App = () => {
   };
 
   return (
-    <IntlProvider
-      messages={messages[currentLocale]}
-      locale={currentLocale}
-      defaultLocale={LOCALES.RUSSIAN}
-    >
+      <IntlProvider
+          messages={messages[currentLocale]}
+          locale={currentLocale}
+          defaultLocale={LOCALES.RUSSIAN}
+      >
       <div className={style.App}>
         <FirstPage currentLocale={currentLocale} handleChange={handleChange} />
         <MyWorksHeader/>
         <MyWorksSlider/>
-        <AboutMe />
-        <MyTechnology />
-        <MyContacts />
+        {/*<AboutMe />
+        <MyTechnology />*/}
+        {/*<MyContacts />*/}
       </div>
     </IntlProvider>
   );

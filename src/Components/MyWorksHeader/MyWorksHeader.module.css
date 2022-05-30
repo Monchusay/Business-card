@@ -4,6 +4,7 @@
     background-color: rgba(167, 174, 209);
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 .MyWorksHeaderImg {
     width: 50%;
@@ -17,4 +18,29 @@
     font-size: 55px;
     cursor: default;
     color: #10375c;
+}
+@media screen and (max-width: 1100px) {
+    .MyWorksHeader {
+        height: 200px;
+    }
+    .MyWorksHeaderImg {
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .MyWorksHeader {
+        height: 150px;
+    }
+    .MyWorksHeaderImg {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .MyWorksHeaderImg {
+        background-size: 150px;
+        font-size: 25px;
+    }
+    .MyWorksHeader {
+        height: 120px;
+    }
 }
