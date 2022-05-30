@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/Business-card/static/css/main.e45b4bdf.css",
-    "main.js": "/Business-card/static/js/main.236aecc9.js",
+    "main.css": "/Business-card/static/css/main.8c2dd652.css",
+    "main.js": "/Business-card/static/js/main.50129892.js",
     "static/js/787.bc412fff.chunk.js": "/Business-card/static/js/787.bc412fff.chunk.js",
+    "static/media/Fon_s_belym_nizom.png": "/Business-card/static/media/Fon_s_belym_nizom.ca7abe0baab136494491.png",
     "static/media/PortfolioWork3.png": "/Business-card/static/media/PortfolioWork3.09fcb1d4ea3dbd61b505.png",
-    "static/media/NavBarPic.jpg": "/Business-card/static/media/NavBarPic.cdb80871aca5338ab46c.jpg",
-    "static/media/PortfolioWork1.png": "/Business-card/static/media/PortfolioWork1.1cd6532a030e143b4225.png",
+    "static/media/PortfolioWork1.png": "/Business-card/static/media/PortfolioWork1.58640d6098ad21652a14.png",
+    "static/media/Timur_v_kruzhochke.png": "/Business-card/static/media/Timur_v_kruzhochke.b29acfb376240ae568ea.png",
+    "static/media/Telegram_logo.jpg": "/Business-card/static/media/Telegram_logo.657e80040fec7eb88230.jpg",
+    "static/media/VK_logo.jpg": "/Business-card/static/media/VK_logo.dccf9410e76604c6d45e.jpg",
+    "static/media/Phone_logo.jpg": "/Business-card/static/media/Phone_logo.383e3be7fca7e238323a.jpg",
     "static/media/PortfolioWork4.png": "/Business-card/static/media/PortfolioWork4.0a6b13f58788763f07ab.png",
     "static/media/PortfolioWork2.png": "/Business-card/static/media/PortfolioWork2.b4141540c3a40083d542.png",
+    "static/media/HH_logo.jpg": "/Business-card/static/media/HH_logo.959bc9f6a0e73a8924c2.jpg",
+    "static/media/Kist.png": "/Business-card/static/media/Kist.002eaf80916672a3a0b0.png",
     "index.html": "/Business-card/index.html",
-    "main.e45b4bdf.css.map": "/Business-card/static/css/main.e45b4bdf.css.map",
-    "main.236aecc9.js.map": "/Business-card/static/js/main.236aecc9.js.map",
+    "main.8c2dd652.css.map": "/Business-card/static/css/main.8c2dd652.css.map",
+    "main.50129892.js.map": "/Business-card/static/js/main.50129892.js.map",
     "787.bc412fff.chunk.js.map": "/Business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e45b4bdf.css",
-    "static/js/main.236aecc9.js"
+    "static/css/main.8c2dd652.css",
+    "static/js/main.50129892.js"
   ]
 }
