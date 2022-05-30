@@ -18,7 +18,7 @@
 }
 .Contacts {
     width: 30%;
-    height: 80%;
+    height: 90%;
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +36,17 @@
     cursor: pointer;
     opacity: 0.8;
 }
+.ContactsGitElement {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.ContactsGitElement img {
+    width: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.6;
+}
 .LangSelector {
     width: 20%;
     height: 100%;
@@ -50,7 +61,7 @@
     margin-top: 50px;
 }
 .FirstPageName {
-    width: 600px;
+    width: 100%;
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
     display: flex;
