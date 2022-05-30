@@ -1,22 +1,22 @@
 import style from "./App.module.css";
-import NavBar from "./Components/NavBar/NavBar";
-import MainInfo from "./Components/MainInfo/MainInfo";
 import MyTechnology from "./Components/MyTechnology/MyTechnology";
 import AboutMe from "./Components/AboutMe/AboutMe";
-import Portfolio from "./Components/Portfolio/Portfolio";
 import MyContacts from "./Components/MyContacts/MyContacts";
 import { IntlProvider } from "react-intl";
 import { LOCALES } from "./i18n/locales";
 import { messages } from "./i18n/messages";
-import {useState} from "react";
+import React, { useState } from "react";
+import FirstPage from "./Components/FirstPage/FirstPage";
+import MyWorksHeader from "./Components/MyWorksHeader/MyWorksHeader";
+import MyWorksSlider from "./Components/MyWorksSlider/MyWorksSlider";
 
 const App = () => {
 
-  const locale = LOCALES.RUSSIAN
-  const [currentLocale, setCurrentLocale] = useState(locale)
+  const locale = LOCALES.RUSSIAN;
+  const [currentLocale, setCurrentLocale] = useState(locale);
   const handleChange = ({ target: { value } }) => {
-    setCurrentLocale(value)
-  }
+    setCurrentLocale(value);
+  };
 
   return (
     <IntlProvider
@@ -25,11 +25,11 @@ const App = () => {
       defaultLocale={LOCALES.RUSSIAN}
     >
       <div className={style.App}>
-        <NavBar currentLocale={currentLocale} handleChange={handleChange} />
-        <MainInfo />
+        <FirstPage currentLocale={currentLocale} handleChange={handleChange} />
+        <MyWorksHeader/>
+        <MyWorksSlider/>
         <AboutMe />
         <MyTechnology />
-        <Portfolio />
         <MyContacts />
       </div>
     </IntlProvider>

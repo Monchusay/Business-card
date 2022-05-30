@@ -1,0 +1,94 @@
+.FirstPage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/src/Pictures/Fon_s_belym_nizom.png");
+    background-size: cover;
+    background-position: center bottom;
+}
+.ContLangSelector {
+    width: 95%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Contacts {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.ContactsElement {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.ContactsElementText {
+    padding-left: 10px;
+}
+.ContactsElement img {
+    width: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.LangSelector {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+.FirstPageImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-image: url("/src/Pictures/Timur_v_kruzhochke.png");
+    background-size: cover;
+    margin-top: 50px;
+}
+.FirstPageName {
+    width: 600px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    color: white;
+    cursor: default;
+}
+.FirstPageProf {
+    font-family: 'Roboto', sans-serif;
+    color: lightgrey;
+    font-size: 28px;
+    cursor: default;
+}
+.FirstPageSite {
+    font-family: 'Roboto', sans-serif;
+    color: lightgrey;
+    font-size: 18px;
+    margin-top: 15px;
+    cursor: default;
+}
+.arrow {
+    width: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.LangSelector {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+.LangSelector Select {
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 100px;
+    height: 30px;
+}
