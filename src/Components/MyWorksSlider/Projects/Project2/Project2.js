@@ -13,7 +13,7 @@ const Project2 = () => {
             <div className={style.ProjectPic}>
                 <div className={style.ProjectPicImg}/>
                 <a
-                    href="https://monchusay.github.io/ds-test-task-complited/"
+                    href="https://monchusay.github.io/RooX-test-task-complited/"
                     target="_blank"
                     className={style.LinkToProj}
                 >
