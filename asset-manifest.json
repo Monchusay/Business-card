@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Business-card/static/css/main.16316f26.css",
+    "main.css": "/Business-card/static/css/main.e6599f5a.css",
     "main.js": "/Business-card/static/js/main.698fb75a.js",
     "static/js/787.bc412fff.chunk.js": "/Business-card/static/js/787.bc412fff.chunk.js",
     "static/media/Fon_s_belym_nizom.png": "/Business-card/static/media/Fon_s_belym_nizom.ca7abe0baab136494491.png",
@@ -15,12 +15,12 @@
     "static/media/HH_logo.jpg": "/Business-card/static/media/HH_logo.959bc9f6a0e73a8924c2.jpg",
     "static/media/Kist.png": "/Business-card/static/media/Kist.002eaf80916672a3a0b0.png",
     "index.html": "/Business-card/index.html",
-    "main.16316f26.css.map": "/Business-card/static/css/main.16316f26.css.map",
+    "main.e6599f5a.css.map": "/Business-card/static/css/main.e6599f5a.css.map",
     "main.698fb75a.js.map": "/Business-card/static/js/main.698fb75a.js.map",
     "787.bc412fff.chunk.js.map": "/Business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16316f26.css",
+    "static/css/main.e6599f5a.css",
     "static/js/main.698fb75a.js"
   ]
 }
