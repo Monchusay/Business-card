@@ -6,10 +6,14 @@ export const messages = {
     mainInfo_content:
       "React-JS Specialist's personal website.",
     myWorks_header: "MY PROJECTS",
-    aboutMe_Header: "About Me:",
+    aboutMe_Header: "ABOUT ME",
+    aboutMe_Who:"WHO AM I",
+    aboutMe_info:"I am a beginner front-end developer from St. Petersburg. I am 25 years old and the decision to connect my future career with Frontend development came to me half a year ago.",
     aboutMe_content:
-      "The decision to connect my future career with Frontend development came to me 4 months ago. I started my React-JS learning with free YouTube video tutorials. Passed courses at HTML-academy. I keep reading learn.javascript. Completed a free course on hexlet on working with the command line. I am confident with GIT and NPM. I keep learning CSS-flex/grid to improve my layout skills. In the past, I`ve completed two years of English courses (B2). In my free time from preparation for work, I like to play video games, watch TV shows and pay attention to my girlfriend.",
-    aboutMe_PS:
+      "I started my React-JS training with a course of 100 YouTube video tutorials. Passed courses at HTML-academy. I keep reading learn.javascript. Completed a free course on hexlet on working with the command line. I am confident with GIT and NPM. I keep learning CSS-flex/grid to improve my layout skills.",
+    aboutMe_vector: "Graduated from paid courses of spoken English (B2) in a private educational institution \n < School of Informatics and Applied Mathematics with in-depth study of English <VECTOR++> > (2016-2018)",
+    aboutMe_tech_header: "HOW CAN I BE USEFUL",
+    aboutMe_tech:
       "At the moment, I have no experience in commercial development, but I give all my best in my training and strive very hard for this. I understand that I still have a lot to learn, but I continue to follow my life principle - at the cost of any effort, always bring what you started to the end.",
     tech_header: "I have reached some experience in using:",
     tech_ENG: "English language",
@@ -45,10 +49,14 @@ export const messages = {
     mainInfo_content:
         "Личный сайт React-JS специалиста.",
     myWorks_header: "МОИ РАБОТЫ",
-    aboutMe_Header: "Обо мне:",
+    aboutMe_Header: "ОБО МНЕ",
+    aboutMe_Who:"КТО Я",
+    aboutMe_info:"Я - начинающий фронтенд разработчик из Санкт-Петербурга. Мне 25 лет и решение связать свою будущую карьеру с Frontend-разработкой я принял пол года назад.",
     aboutMe_content:
-        "Решение связать свою будущую карьеру с Frontend-разработкой пришло ко мне 4 месяца назад. Я начал свое обучение React-JS с бесплатных видео-уроков на YouTube. Прошел курсы на HTML-academy. Продолжаю читать learn.javascript. Закончил бесплатный курс на hexlet по работе с командной строкой. Уверенно работаю с GIT и NPM. Продолжаю изучать CSS-flex/grid что-бы улучшить свои навыки в верстке. В прошлом окончил два года курсов разговорного английского языка (B2). В свободное от подготовки к работе время люблю играть в видео-игры, смотреть сериалы и уделять внимание своей девушке.",
-    aboutMe_PS:
+        "Я начал свое обучение React-JS с курса в 100 видео-уроков на YouTube. Прошел курсы на HTML-academy. Продолжаю читать learn.javascript. Закончил бесплатный курс на hexlet по работе с командной строкой. Уверенно работаю с GIT и NPM. Продолжаю изучать CSS-flex/grid что-бы улучшить свои навыки в верстке.",
+    aboutMe_vector: "Окончил платные курсы разговорного английского языка (В2) в частном образовательном учреждении \n < Школа информатики и прикладной математики с углубленным изучением английского языка <ВЕКТОР++> > (2016-2018)",
+    aboutMe_tech_header: "ЧЕМ Я МОГУ БЫТЬ ВАМ ПОЛЕЗЕН",
+    aboutMe_tech:
         "На данный момент, у меня нет опыта коммерческой разработки, но я выкладываюсь на полную в своем обучении и очень стремлюсь к этому. Я понимаю что мне еще многому предстоит научиться, но я продолжаю следовать своему жизненному принципу - ценой любых усилий, всегда доводи начатое до конца.",
     tech_header: "Я достиг определенного опыта в использовании:",
     tech_ENG: "Английский язык",

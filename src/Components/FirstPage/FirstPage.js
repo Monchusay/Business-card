@@ -50,10 +50,7 @@ const FirstPage = ({ currentLocale, handleChange }) => {
             </a>
           </span>
           <span className={style.ContactsGitElement}>
-            <a
-              href="https://github.com/Monchusay"
-              target="_blank"
-            >
+            <a href="https://github.com/Monchusay" target="_blank">
               <img src={Git} />
             </a>
           </span>
@@ -69,23 +66,25 @@ const FirstPage = ({ currentLocale, handleChange }) => {
           </select>
         </div>
       </div>
-      <div className={style.FirstPageImage} />
-      <span className={style.FirstPageName}>
-        <FormattedMessage id="mainInfo_name" />
-      </span>
-      <span className={style.FirstPageProf}>Frontend Developer</span>
-      <span className={style.FirstPageSite}>
-        <FormattedMessage id="mainInfo_content" />
-      </span>
-      <Link
-        to="works_header"
-        spy={true}
-        smooth={true}
-        offset={100}
-        duration={500}
-      >
-        <img src={arrow} className={style.arrow} />
-      </Link>
+      <div className={style.MyInfo}>
+        <div className={style.FirstPageImage} />
+        <span className={style.FirstPageName}>
+          <FormattedMessage id="mainInfo_name" />
+        </span>
+        <span className={style.FirstPageProf}>Frontend Developer</span>
+        <span className={style.FirstPageSite}>
+          <FormattedMessage id="mainInfo_content" />
+        </span>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={90}
+          duration={500}
+        >
+          <img src={arrow} className={style.arrow} />
+        </Link>
+      </div>
     </div>
   );
 };
