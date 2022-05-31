@@ -1,0 +1,78 @@
+.Contacts {
+    width: 100vw;
+    height: 400px;
+    background-color: rgba(196, 201, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContactsBox {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Contact {
+    width: 35%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.MyContactsIcon {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.ContactText {
+    width: 70%;
+    padding-left: 15px;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: rgba(30, 44, 81);
+    text-decoration: none;
+}
+@media screen and (max-width: 1100px) {
+    .ContactText {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .ContactText {
+        font-size: 12px;
+    }
+    .ContactsBox {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .ContactsBox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .ContactsBox {
+        width: 30%;
+    }
+    .Contact {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+    }
+    .MyContactsIcon {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .ContactsBox {
+        width: 50%;
+    }
+    .ContactText {
+        font-size: 10px;
+    }
+}

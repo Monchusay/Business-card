@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Reviews.module.css";
 import { FormattedMessage } from "react-intl";
 import { FaChevronDown } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Reviews = () => {
   return (
@@ -40,7 +41,15 @@ const Reviews = () => {
           <div className={style.Content}></div>
         </div>
       </div>
+      <Link
+          to="contacts"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+      >
       <FaChevronDown className={style.Icon} />
+      </Link>
     </div>
   );
 };

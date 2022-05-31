@@ -10,6 +10,7 @@ import AboutMeInfoHeader from "./Components/AboutMeInfoHeader/AboutMeInfoHeader"
 import AboutMeInfo from "./Components/AboutMeInfo/AboutMeInfo";
 import ReviewsHeader from "./Components/ReviewsHeader/ReviewsHeader";
 import Reviews from "./Components/Reviews/Reviews";
+import Contacts from "./Components/Contacts/Contacts";
 
 const App = () => {
   const locale = LOCALES.RUSSIAN;
@@ -32,7 +33,7 @@ const App = () => {
         <MyWorksSlider />
         <ReviewsHeader/>
         <Reviews/>
-        {/*<MyContacts />*/}
+        <Contacts/>
       </div>
     </IntlProvider>
   );

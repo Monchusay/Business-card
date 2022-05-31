@@ -5,7 +5,7 @@ import {FormattedMessage} from "react-intl";
 const AboutMeInfoHeader = () => {
     return (
         <div className={style.AboutMeInfo}>
-            <div className={style.AboutMeInfoImg}>
+            <div name="about" className={style.AboutMeInfoImg}>
                 <FormattedMessage id='aboutMe_Header' />
             </div>
         </div>

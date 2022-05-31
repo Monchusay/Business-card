@@ -82,7 +82,6 @@
 .Content {
     width: 90%;
     height: 60%;
-    background-color: darkgrey;
     display: flex;
     align-items: center;
     text-align: center;

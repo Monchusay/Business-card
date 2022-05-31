@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const AboutMeInfo = () => {
   return (
-    <div name="about" className={style.AboutBox}>
+    <div className={style.AboutBox}>
       <div className={style.AboutMeInfo}>
         <div className={style.AboutMeInfoMain}>
           <div className={style.PhotoAndInfo}>
