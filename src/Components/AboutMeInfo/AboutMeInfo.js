@@ -52,7 +52,13 @@ const AboutMeInfo = () => {
           </div>
         </div>
       </div>
-      <Link to="works_header" spy={true} smooth={true} offset={50} duration={500}>
+      <Link
+        to="works_header"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+      >
         <FaChevronDown className={style.Icon} />
       </Link>
     </div>

@@ -12,12 +12,9 @@ export const messages = {
     aboutMe_content:
       "I started my React-JS training with a course of 100 YouTube video tutorials. Passed courses at HTML-academy. I keep reading learn.javascript. Completed a free course on hexlet on working with the command line. I am confident with GIT and NPM. I keep learning CSS-flex/grid to improve my layout skills.",
     aboutMe_vector: "Graduated from paid courses of spoken English (B2) in a private educational institution \n < School of Informatics and Applied Mathematics with in-depth study of English <VECTOR++> > (2016-2018)",
-    aboutMe_tech_header: "HOW CAN I BE USEFUL",
+    aboutMe_tech_header: "I USE",
     aboutMe_tech:
       "At the moment, I have no experience in commercial development, but I give all my best in my training and strive very hard for this. I understand that I still have a lot to learn, but I continue to follow my life principle - at the cost of any effort, always bring what you started to the end.",
-    tech_header: "I have reached some experience in using:",
-    tech_ENG: "English language",
-    tech_layout: "Adaptive layout",
     portFirst_header: "Platform for online purchase of tickets for music concerts \n < CONCERT CLUB >",
     portFirst_usages:
       "Used libraries and functions: \n React, Redux, React Hooks (useState, useEffect) + one custom, Typescript, axios.",
@@ -37,6 +34,9 @@ export const messages = {
     portFourth_func:
       'Functionality: \n Displaying an array of a list of goods, Yandex maps on the Delivery tab, "Burger-menu" on the Cart tab. Adding items from the list of products to the shopping cart.',
     portToSite_button: 'TO SITE',
+    reviews_Header: "WHAT OTHERS CAN SAY",
+    reviews_DimaName: "Dmitry Puris",
+    reviews_DimaAbout: "< Tinkoff > Senior Frontend Developer",
     contacts_header: "Contacts:",
     contacts_HH: "HH Resume:",
     contacts_phone: "Phone:",
@@ -55,12 +55,9 @@ export const messages = {
     aboutMe_content:
         "Я начал свое обучение React-JS с курса в 100 видео-уроков на YouTube. Прошел курсы на HTML-academy. Продолжаю читать learn.javascript. Закончил бесплатный курс на hexlet по работе с командной строкой. Уверенно работаю с GIT и NPM. Продолжаю изучать CSS-flex/grid что-бы улучшить свои навыки в верстке.",
     aboutMe_vector: "Окончил платные курсы разговорного английского языка (В2) в частном образовательном учреждении \n < Школа информатики и прикладной математики с углубленным изучением английского языка <ВЕКТОР++> > (2016-2018)",
-    aboutMe_tech_header: "ЧЕМ Я МОГУ БЫТЬ ВАМ ПОЛЕЗЕН",
+    aboutMe_tech_header: "МОЙ СТЭК",
     aboutMe_tech:
         "На данный момент, у меня нет опыта коммерческой разработки, но я выкладываюсь на полную в своем обучении и очень стремлюсь к этому. Я понимаю что мне еще многому предстоит научиться, но я продолжаю следовать своему жизненному принципу - ценой любых усилий, всегда доводи начатое до конца.",
-    tech_header: "Я достиг определенного опыта в использовании:",
-    tech_ENG: "Английский язык",
-    tech_layout: "Адаптивная верстка",
     portFirst_header: "Платформа для онлайн-покупки билетов музыкальных групп \n < CONCERT CLUB >",
     portFirst_usages:
         "Использованные библиотеки и функции: \n React, Redux, React Hooks (useState, useEffect) + один кастомный, Typescript, axios.",
@@ -80,6 +77,11 @@ export const messages = {
     portFourth_func:
         'Функционал: \n Вывод массива списка товаров, Яндекс-карты на вкладке Delivery, "Burger-menu" на вкладке Cart. Добавление элементов из списка товаров в корзину.',
     portToSite_button: 'ПЕРЕЙТИ К САЙТУ',
+    reviews_Header: "ЧТО ГОВОРЯТ ОБО МНЕ",
+    reviews_DimaName: "Дмитрий Пурис",
+    reviews_DimaAbout: "< Tinkoff > Senior Frontend Developer",
+    reviews_PolyaName: "Полина Фролова",
+    reviews_PolyaAbout: "Разработчик дизайна сайта",
     contacts_header: "Контактные данные:",
     contacts_HH: "HH Резюме:",
     contacts_phone: "Телефон:",

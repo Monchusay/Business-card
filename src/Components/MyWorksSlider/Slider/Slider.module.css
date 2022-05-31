@@ -48,6 +48,10 @@
         width: 20px;
         height: 20px;
     }
+    .Icon {
+        width: 30px;
+        height: 30px;
+    }
 }
 @media screen and (max-width: 460px) {
     .Carousel {

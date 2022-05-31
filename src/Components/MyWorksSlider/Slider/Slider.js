@@ -1,6 +1,7 @@
 import React, { Children, cloneElement, useEffect, useState } from "react";
 import style from "./Slider.module.css";
 import { FaChevronDown, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const PAGE_WIDTH = 1700;
 
@@ -58,7 +59,9 @@ const Slider = ({ children }) => {
           onClick={handleRightArrowClick}
         />
       </div>
-      <FaChevronDown className={style.Icon} />
+      <Link to="Reviews" spy={true} smooth={true} offset={0} duration={500}>
+        <FaChevronDown className={style.Icon} />
+      </Link>
     </div>
   );
 };

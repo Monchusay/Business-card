@@ -1,6 +1,4 @@
 import style from "./App.module.css";
-import MyTechnology from "./Components/MyTechnology/MyTechnology";
-import MyContacts from "./Components/MyContacts/MyContacts";
 import { IntlProvider } from "react-intl";
 import { LOCALES } from "./i18n/locales";
 import { messages } from "./i18n/messages";
@@ -10,6 +8,8 @@ import MyWorksHeader from "./Components/MyWorksHeader/MyWorksHeader";
 import MyWorksSlider from "./Components/MyWorksSlider/MyWorksSlider";
 import AboutMeInfoHeader from "./Components/AboutMeInfoHeader/AboutMeInfoHeader";
 import AboutMeInfo from "./Components/AboutMeInfo/AboutMeInfo";
+import ReviewsHeader from "./Components/ReviewsHeader/ReviewsHeader";
+import Reviews from "./Components/Reviews/Reviews";
 
 const App = () => {
   const locale = LOCALES.RUSSIAN;
@@ -30,8 +30,9 @@ const App = () => {
         <AboutMeInfo/>
         <MyWorksHeader />
         <MyWorksSlider />
-        {/*<MyTechnology />
-        <MyContacts />*/}
+        <ReviewsHeader/>
+        <Reviews/>
+        {/*<MyContacts />*/}
       </div>
     </IntlProvider>
   );
