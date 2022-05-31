@@ -31,6 +31,7 @@
     height: 50%;
     display: flex;
     justify-content: space-evenly;
+    color: rgba(30, 44, 81);
 }
 .Photo {
     width: 40%;
