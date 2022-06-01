@@ -22,7 +22,7 @@ const Reviews = () => {
               </span>
             </div>
           </div>
-          <div className={style.Content}></div>
+          <div className={style.Content}><FormattedMessage id="reviews_DimaText"/></div>
         </div>
         <div className={style.PReview}>
           <div className={style.PicAndName}>
@@ -38,7 +38,7 @@ const Reviews = () => {
               </span>
             </div>
           </div>
-          <div className={style.Content}></div>
+          <div className={style.Content}><FormattedMessage id="reviews_PolyaText"/></div>
         </div>
       </div>
       <Link

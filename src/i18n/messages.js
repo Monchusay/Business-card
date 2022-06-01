@@ -19,7 +19,7 @@ export const messages = {
     portFirst_usages:
       "Used libraries and functions: \n React, Redux, React Hooks (useState, useEffect) + one custom, Typescript, axios.",
     portFirst_func:
-      "Functionality: \n Landing with a list of users, profile of each user with a list of his posts, Route to the detailed page of each post with comments, the ability to leave your own. Data via API from the my-json-server service (.get .post (working, but fake, due to the free service)). Additional comment rendering path via dispatch/action. Adaptive layout.",
+      "Functionality: \n Landing with a list of users, profile of each user with a list of his posts, Route to the detailed page of each post with comments, the ability to leave your own. Data via API from the my-json-server service (.get .post (working, but fake, due to the free service)).",
     portSecond_header: "List of users with personal data",
     portSecond_usages:
       "Used libraries and functions: \n React, Redux, Typescript, Axios, React Hooks (useState, useEffect).",
@@ -37,12 +37,8 @@ export const messages = {
     reviews_Header: "WHAT OTHERS CAN SAY",
     reviews_DimaName: "Dmitry Puris",
     reviews_DimaAbout: "< Tinkoff > Senior Frontend Developer",
-    contacts_header: "Contacts:",
-    contacts_HH: "HH Resume:",
-    contacts_phone: "Phone:",
-    contacts_VK: "VK:",
-    contacts_mail: "E-mail:",
-    contacts_telegram: "Telegram:",
+    reviews_DimaText: "As Timur's mentor, I can say that he is moving very quickly in development. Always tries to solve problems on his own, but knows the balance and asks for advice in time. Made a lot of independent projects and test tasks. Possesses the most important skill of a programmer - perseverance. Timur still has a lot to learn and try, but I am sure that he will succeed!",
+    reviews_PolyaText: "I am developing with Timur not the first site, the work always goes very clearly and competently. Special thanks for the attention to detail, as a designer, this is very important to me. Everything is always done on time. My graphic interactive ideas are executed and brought to life. Thanks Timur for the work, everything is great."
   },
   [LOCALES.RUSSIAN]: {
     mainInfo_name: "Тимур Моисеев",
@@ -62,7 +58,7 @@ export const messages = {
     portFirst_usages:
         "Использованные библиотеки и функции: \n React, Redux, React Hooks (useState, useEffect) + один кастомный, Typescript, axios.",
     portFirst_func:
-        "Функционал: \n Лэндинг с списком пользователей, профиль каждого пользователя с списком его постов, Route на детальную страницу каждого поста с комментариями, возможность оставить свой. Data по API с сервиса my-json-server (.get .post (рабочий, но фейковый, в силу бесплатности сервиса)). Дополнительный путь рендера комментария через dispatch/action. Адаптивная верстка.",
+        "Функционал: \n Лэндинг с списком пользователей, профиль каждого пользователя с списком его постов, Route на детальную страницу каждого поста с комментариями, возможность оставить свой. Data по API с сервиса my-json-server (.get .post (рабочий, но фейковый, в силу бесплатности сервиса)).",
     portSecond_header: "Список пользователей с персональными данными",
     portSecond_usages:
         "Использованные библиотеки и функции: \n React, Redux, Typescript, Axios, React Hooks (useState, useEffect).",
@@ -82,11 +78,7 @@ export const messages = {
     reviews_DimaAbout: "< Tinkoff > Senior Frontend Developer",
     reviews_PolyaName: "Полина Фролова",
     reviews_PolyaAbout: "Разработчик дизайна сайта",
-    contacts_header: "Контактные данные:",
-    contacts_HH: "HH Резюме:",
-    contacts_phone: "Телефон:",
-    contacts_VK: "ВКонтакте:",
-    contacts_mail: "E-mail:",
-    contacts_telegram: "Telegram:",
+    reviews_DimaText: "Как ментор Тимура, могу сказать, что он очень быстро движется в развитии. Всегда пытается решить проблемы самостоятельно, но знает баланс и вовремя просит совета. Сделал много самостоятельных проектов и тестовых заданий. Обладает самым главным навыком программиста - усидчивостью. Еще много чего Тимуру предстоит узнать и попробовать, но я уверен, что у него все получится!",
+    reviews_PolyaText: "Разрабатываю с Тимуром не первый сайт, работа всегда проходит очень чётко и грамотно. Отдельное спасибо за внимание к деталям, мне как дизайнеру, это очень важно. Все всегда сделано вовремя. Мои графические интерактивные идеи исполняются и воплощаются в жизнь. Спасибо Тимуру за работу, все великолепно."
   }
 };

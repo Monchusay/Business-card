@@ -7,7 +7,7 @@
     justify-content: flex-start;
     background-image: url("/src/Pictures/Fon_s_belym_nizom.png");
     background-size: cover;
-    background-position: center center;
+    background-position: bottom center;
 }
 .ContLangSelector {
     width: 95%;
@@ -114,9 +114,6 @@
     .MyInfo {
         height: 60%;
     }
-    .FirstPageImage {
-        margin-top: 30px;
-    }
     .arrow {
         margin-top: 20px;
     }
@@ -127,6 +124,12 @@
     }
     .MyInfo {
         margin-top: 0px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .FirstPageImage {
+        width: 150px;
+        height: 150px;
     }
 }
 @media screen and (max-width: 800px) {

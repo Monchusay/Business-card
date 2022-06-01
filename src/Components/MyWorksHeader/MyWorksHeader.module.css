@@ -34,6 +34,7 @@
     }
     .MyWorksHeaderImg {
         font-size: 35px;
+        width: 90%;
     }
 }
 @media screen and (max-width: 460px) {

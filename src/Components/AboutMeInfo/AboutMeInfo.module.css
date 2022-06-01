@@ -267,3 +267,14 @@
         background-position: center right;
     }
 }
+@media screen and (max-width: 330px) {
+    .AboutMeInfoTechHeader {
+        font-size: 14px;
+    }
+    .AboutMeInfoTechText {
+        font-size: 10px;
+    }
+    .Card {
+        font-size: 10px;
+    }
+}

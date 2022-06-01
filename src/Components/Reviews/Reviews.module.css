@@ -20,6 +20,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    transition: 0.5s;
 }
 .PReview {
     width: 40%;
@@ -29,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    transition: 0.5s;
 }
 .PicAndName {
     width: 90%;
@@ -83,8 +85,9 @@
     width: 90%;
     height: 60%;
     display: flex;
-    align-items: center;
-    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
 }
 .Icon {
     width: 60px;
@@ -93,11 +96,9 @@
 }
 .DReview:hover {
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
 }
 .PReview:hover {
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
-    transition: 0.5s;
 }
 @media screen and (max-width: 1100px) {
     .ReviewsBox {
@@ -116,6 +117,9 @@
     }
     .About {
         font-size: 13px;
+    }
+    .Content {
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -152,6 +156,10 @@
         width: 30px;
         height: 30px;
     }
+    .Content {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }
 @media screen and (max-width: 500px) {
     .Name {
@@ -159,5 +167,21 @@
     }
     .About {
         font-size: 11px;
+    }
+    .Content {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 330px) {
+    .Name {
+        font-size: 16px;
+    }
+    .About {
+        font-size: 10px;
+    }
+    .Content {
+        font-size: 11px;
+        line-height: 15px;
     }
 }
