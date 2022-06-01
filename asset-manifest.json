@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Business-card/static/css/main.f2fb42d5.css",
-    "main.js": "/Business-card/static/js/main.0a064bef.js",
+    "main.css": "/Business-card/static/css/main.9db8acf5.css",
+    "main.js": "/Business-card/static/js/main.ecc01f03.js",
     "static/js/787.bc412fff.chunk.js": "/Business-card/static/js/787.bc412fff.chunk.js",
     "static/media/PortfolioWork3.png": "/Business-card/static/media/PortfolioWork3.c8c7f5d34781bb350ae6.png",
-    "static/media/Fon_s_belym_nizom.png": "/Business-card/static/media/Fon_s_belym_nizom.055091d15d32b53a5bfa.png",
+    "static/media/Fon_s_belym_nizom.png": "/Business-card/static/media/Fon_s_belym_nizom.ca7abe0baab136494491.png",
     "static/media/PortfolioWork1.png": "/Business-card/static/media/PortfolioWork1.e28c9054d4352021bed1.png",
     "static/media/Polya.jpg": "/Business-card/static/media/Polya.d1856ef535c686414ad2.jpg",
     "static/media/PortfolioWork2.png": "/Business-card/static/media/PortfolioWork2.fd36393d1d43e3b098e8.png",
@@ -20,12 +20,12 @@
     "static/media/Kist.png": "/Business-card/static/media/Kist.002eaf80916672a3a0b0.png",
     "static/media/Kist2.png": "/Business-card/static/media/Kist2.5725ba4c59ad56bfb347.png",
     "index.html": "/Business-card/index.html",
-    "main.f2fb42d5.css.map": "/Business-card/static/css/main.f2fb42d5.css.map",
-    "main.0a064bef.js.map": "/Business-card/static/js/main.0a064bef.js.map",
+    "main.9db8acf5.css.map": "/Business-card/static/css/main.9db8acf5.css.map",
+    "main.ecc01f03.js.map": "/Business-card/static/js/main.ecc01f03.js.map",
     "787.bc412fff.chunk.js.map": "/Business-card/static/js/787.bc412fff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2fb42d5.css",
-    "static/js/main.0a064bef.js"
+    "static/css/main.9db8acf5.css",
+    "static/js/main.ecc01f03.js"
   ]
 }
