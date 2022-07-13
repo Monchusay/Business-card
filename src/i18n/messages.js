@@ -25,14 +25,14 @@ export const messages = {
       "Used libraries and functions: \n React, Redux, Typescript, Axios, React Hooks (useState, useEffect).",
     portSecond_func:
       "Functionality: \n Getting a list and user data via API (ajax requests), sorting the list, Route by user id to the page with his information, the ability to edit it, the presence of required fields.",
-    portThird_header: "Modern co-working area \n < Frispes >",
-    portThird_usages: "Used libraries and functions: \n React.",
-    portThird_func: "Functionality: \n Landing layout using React-components.",
-    portFourth_header: "Online store website layout.\n The project is under development and continues to improve.",
+    portThird_header: "CRM-system",
+    portThird_usages: "Used libraries and functions: \n React, Redux, Redux-toolkit, Axios, React Hooks (useState, useEffect), date-fns, react-select.",
+    portThird_func: "Functionality: \n Listing of calls list, API data, sorting by call types, sources and errors, selection of time interval for displaying calls, custom MP3 players.",
+    portFourth_header: "Admin dashboard",
     portFourth_usages:
-      "Used libraries and functions: \n React, Npm-Yandex-maps, React-icons, Redux, React Hooks (useState).",
+      "Used libraries and functions: \n React, React Hooks (useState, useEffect, useContext), Syncfusion, Tailwind, React-icons.",
     portFourth_func:
-      'Functionality: \n Displaying an array of a list of goods, Yandex maps on the Delivery tab, "Burger-menu" on the Cart tab. Adding items from the list of products to the shopping cart.',
+      'Functionality: \n Full functionality with custom and universal charts/applications from the Syncfusion library. State management with createContext/useContext. Ability to choose a color scheme for the design and switch between light / dark themes. Adaptive layout.',
     portToSite_button: 'TO SITE',
     reviews_Header: "WHAT OTHERS CAN SAY",
     reviews_DimaName: "Dmitry Puris",
@@ -64,14 +64,14 @@ export const messages = {
         "Использованные библиотеки и функции: \n React, Redux, Typescript, Axios, React Hooks (useState, useEffect).",
     portSecond_func:
         "Функционал: \n Получение списка и данных пользователей по API (ajax-запросы), сортировка списка, Route по id пользователя на страницу с его информацией, возможность ее редактировать, наличие обязательных для заполнения полей.",
-    portThird_header: "Современная co-working площадка \n < Frispes >",
-    portThird_usages: "Использованные библиотеки и функции: \n React.",
-    portThird_func: "Функционал: \n Верстка лэндинга по макету с использованием React-components.",
-    portFourth_header: "Макет сайта онлайн-магазина. \n Проект в состоянии разработки и продолжает улучшаться.",
+    portThird_header: "CRM-система",
+    portThird_usages: "Использованные библиотеки и функции: \n React, Redux, Redux-toolkit, Axios, React Hooks (useState, useEffect), date-fns, react-select.",
+    portThird_func: "Функционал: \n Листинг списка звонков, data по API, сортировка по типам звонка, источникам и ошибкам, выбор временного промежутка отображения звонков, кастомный проигрывателей MP3 записей.",
+    portFourth_header: "Контрольная панель администратора.",
     portFourth_usages:
-        "Использованные библиотеки и функции: \n React, Npm-Yandex-maps, React-icons, Redux, React Hooks (useState).",
+        "Использованные библиотеки и функции: \n React, React Hooks (useState, useEffect, useContext), Syncfusion, Tailwind, React-icons.",
     portFourth_func:
-        'Функционал: \n Вывод массива списка товаров, Яндекс-карты на вкладке Delivery, "Burger-menu" на вкладке Cart. Добавление элементов из списка товаров в корзину.',
+        'Функционал: \n Полный функционал с кастомными и универсальными графиками/приложениями из библиотеки Syncfusion. State management с помощью createContext/useContext. Возможность выбора цветовой схемы оформления и переключения между светлой/темной темами. Адаптивная верстка.',
     portToSite_button: 'ПЕРЕЙТИ К САЙТУ',
     reviews_Header: "ЧТО ГОВОРЯТ ОБО МНЕ",
     reviews_DimaName: "Дмитрий Пурис",

@@ -60,7 +60,7 @@
     width: 90%;
     height: 41%;
     background: url("/src/Pictures/PortfolioWork4.png") no-repeat;
-    background-size: contain;
+    background-size: cover;
     border: 1px solid black;
     display: flex;
     align-items: flex-end;
