@@ -32,11 +32,17 @@ export const messages = {
     portThird_func: "Functionality: \n Landing layout using React-components.",
     portFourth_header:
       "Online store website layout.\n The project is under development and continues to improve.",
+    portThird_header: "CRM-system",
+    portThird_usages: "Used libraries and functions: \n React, Redux, Redux-toolkit, Axios, React Hooks (useState, useEffect), date-fns, react-select.",
+    portThird_func: "Functionality: \n Listing of calls list, API data, sorting by call types, sources and errors, selection of time interval for displaying calls, custom MP3 players.",
+    portFourth_header: "Admin dashboard",
     portFourth_usages:
-      "Used libraries and functions: \n React, Npm-Yandex-maps, React-icons, Redux, React Hooks (useState).",
+      "Used libraries and functions: \n React, React Hooks (useState, useEffect, useContext), Syncfusion, Tailwind, React-icons.",
     portFourth_func:
       'Functionality: \n Displaying an array of a list of goods, Yandex maps on the Delivery tab, "Burger-menu" on the Cart tab. Adding items from the list of products to the shopping cart.',
     portToSite_button: "TO SITE",
+      'Functionality: \n Full functionality with custom and universal charts/applications from the Syncfusion library. State management with createContext/useContext. Ability to choose a color scheme for the design and switch between light / dark themes. Adaptive layout.',
+    portToSite_button: 'TO SITE',
     reviews_Header: "WHAT OTHERS CAN SAY",
     reviews_DimaName: "Dmitry Puris",
     reviews_DimaAbout: "< Tinkoff > Senior Frontend Developer",
