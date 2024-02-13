@@ -47,7 +47,7 @@ const AboutMeInfo = () => {
             <span className={style.Card}>Eng.lang</span>
             <span className={style.Card}>Webpack</span>
             <span className={style.Card}>Figma</span>
-            <span className={style.Card}>Layout</span>
+            <span className={style.Card}>Docker</span>
             <span className={style.Card}>Bootstrap</span>
           </div>
         </div>

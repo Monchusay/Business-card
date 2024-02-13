@@ -13,7 +13,7 @@ const Slider = ({ children }) => {
   const handleLeftArrowClick = () => {
     setOffset((offset) => {
       let newOffset = offset + PAGE_WIDTH;
-      if (newOffset > 0) newOffset = -5100;
+      if (newOffset > 0) newOffset = -3400;
       return newOffset;
     });
   };
@@ -21,7 +21,7 @@ const Slider = ({ children }) => {
   const handleRightArrowClick = () => {
     setOffset((offset) => {
       let newOffset = offset - PAGE_WIDTH;
-      if (newOffset < -5100) newOffset = 0;
+      if (newOffset < -3400) newOffset = 0;
       return newOffset;
     });
   };
